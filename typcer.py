@@ -4,8 +4,6 @@ import time
 import random
 import climage
 
-banana = climage.convert("banana.jpg")
-
 session_stats = {
 	"WPM": 0,
 	"Tests": 0
@@ -33,7 +31,7 @@ def start_screen(stdscr):
 def display_text(stdscr, target, current, wpm=0):
 	stdscr.addstr(f'''\n\n\t\t\t -----> Typcer <-----''', curses.color_pair(4))
 	stdscr.addstr(f'''\n\t\t\t --------------------''')
-	stdscr.addstr(f'''\n\t\t\t Type the text above!
+	stdscr.addstr(f'''\n\t\t\t Type the text below!
                       \n\t\t\t WPM: {wpm}''', curses.color_pair(4))
 	stdscr.addstr(f'''\n\t\t\t --------------------''')
 	stdscr.addstr(9, 0, target)
