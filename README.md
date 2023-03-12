@@ -1,8 +1,8 @@
 # Typcer
 ### A light-weight typing warm up game for your pc!
 
-<img src="/assests/1.png" alt="1" style="height: 200px; width:200px;"/>
+![1](/assets/1.png "1")
 
-<img src="/assests/3.png" alt="2" style="height: 200px; width:200px;"/>
+![2](/assets/2.png "2")
 
-<img src="/assests/4.png" alt="3" style="height: 200px; width:200px;"/>
+![3](/assets/3.png "3")
